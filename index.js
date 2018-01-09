@@ -15,6 +15,7 @@ console.log('Bot has been started ...')
 const bot = new TelegramBot(TOKEN, {
     polling: true
 })
+console.log('Yessss ...')
 
 bot.on('message', (msg) => {
     const id = msg.chat.id

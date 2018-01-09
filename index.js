@@ -19,6 +19,8 @@ const bot = new TelegramBot(TOKEN, {
 bot.on('message', (msg) => {
     const id = msg.chat.id
     const text = msg.text
+    
+    console.log(msg);
 
     if(text === '/start')
     {

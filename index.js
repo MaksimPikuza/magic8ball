@@ -10,12 +10,11 @@ const HelpText = 'Формулировка вопроса должна быть 
 
 const StartText = 'Задайте шару вопрос или встряхните.\n/help'
 
-console.log('Bot has been started ...')
+console.log('Bot has been started blyaaaa...')
 
 const bot = new TelegramBot(TOKEN, {
     polling: true
 })
-console.log('Yessss ...')
 
 bot.on('message', (msg) => {
     const id = msg.chat.id

@@ -37,6 +37,8 @@ bot.on('message', (msg) => {
 })
 
 bot.on('callback_query', query => {
+    console.log(query.message);
+    
     sendNewSticker(query.message.chat.id)
 })
 

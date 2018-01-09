@@ -4,14 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "node ./index.js"
+    "start": "node ./index.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "node-telegram-bot-api": "^0.30.0"
-  },
-  "devDependencies": {
-    "nodemon": "^1.14.7"
   }
 }
